@@ -18,7 +18,7 @@ cd
 git clone https://github.com/ProgrammingRainbow/Alacritty-Fish
 ```
 ```
-cp Alacritty-Fish/alacritty.toml ~/.config/alacritty/alacritty.toml
+cp Alacritty-Fish/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 ```
 ## Installing Fish
 ```
@@ -27,7 +27,7 @@ sudo pacman -S --needed fish
 Add a default config file for fish.
 ```
 mkdir -p ~/.config/fish/config.fish
-cp Alacritty-Fish/config.fish ~/.config/fish/config.fish
+cp Alacritty-Fish/.config/fish/config.fish ~/.config/fish/config.fish
 ```
 Install eza, a replacement for ls.
 ```
