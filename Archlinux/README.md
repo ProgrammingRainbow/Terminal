@@ -15,10 +15,10 @@ sudo pacman -S --needed ttf-jetbrains-mono-nerd
 Add a default config for alacritty.
 ```
 cd
-git clone https://github.com/ProgrammingRainbow/Alacritty-Fish
+git clone https://github.com/ProgrammingRainbow/Terminal
 ```
 ```
-cp Alacritty-Fish/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+cp Terminal/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 ```
 ## Installing Fish
 ```
@@ -27,7 +27,7 @@ sudo pacman -S --needed fish
 Add a default config file for fish.
 ```
 mkdir -p ~/.config/fish/config.fish
-cp Alacritty-Fish/.config/fish/config.fish ~/.config/fish/config.fish
+cp Terminal/.config/fish/config.fish ~/.config/fish/config.fish
 ```
 Install eza, a replacement for ls.
 ```
