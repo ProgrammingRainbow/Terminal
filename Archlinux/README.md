@@ -43,10 +43,7 @@ git clone https://gitlab.com/dwt1/shell-color-scripts.git
 cd shell-color-scripts
 makepkg -i
 ```
-
-
-
-
+Change the user default shell.
 ```
-sudo pacman -R alacritty ttf-jetbrains-mono-nerd fish eza libgit2 http-parser starship shell-color-scripts
+chsh -s /bin/fish
 ```
