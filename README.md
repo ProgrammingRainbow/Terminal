@@ -8,8 +8,13 @@ Add color themes to alacritty
 mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 ```
+Install a Nerd Font.
+```
+sudo pacman -S --needed ttf-jetbrains-mono-nerd
+```
 Add a default config for alacritty.
 ```
+cd
 git clone https://github.com/ProgrammingRainbow/Alacritty-Fish
 ```
 ```
@@ -43,5 +48,5 @@ makepkg -i
 
 
 ```
-sudo pacman -S eza libgit2 http-parser
+sudo pacman -R alacritty ttf-jetbrains-mono-nerd fish eza libgit2 http-parser starship shell-color-scripts
 ```
