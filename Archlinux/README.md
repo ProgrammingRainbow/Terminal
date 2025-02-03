@@ -26,7 +26,7 @@ sudo pacman -S --needed fish
 ```
 Add a default config file for fish.
 ```
-mkdir -p ~/.config/fish/config.fish
+mkdir -p ~/.config/fish
 cp Terminal/.config/fish/config.fish ~/.config/fish/config.fish
 ```
 Install eza, a replacement for ls.
